@@ -21,7 +21,7 @@ module ElevatorController(
 
     reg [2:0] state, next_state;
     reg [3:0] requests;
-    reg [1:0] target_floor; // New: stores priority-selected next floor
+    reg [1:0] target_floor; // stores priority-selected next floor
 
     // Combine all floor and call requests
     always @(*) begin
