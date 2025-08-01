@@ -1,11 +1,11 @@
-##Elevator Controller Verilog Implementation
+## Elevator Controller Verilog Implementation
 
-#Overview
+# Overview
 
 This Verilog project implements a finite state machine (FSM)-based elevator controller designed to manage a 4-floor elevator system. The controller handles internal and external button requests, overload detection, and door safety logic. The system intelligently prioritizes requests using a dynamic floor selection mechanism to optimize elevator travel.
 
 
-#Features
+# Features
 
 - Supports 4 floors with individual internal (floor_btn) and external (call_btn) request buttons.
 
